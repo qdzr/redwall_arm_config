@@ -1,0 +1,6 @@
+<launch>
+
+	<node name="redwall_arm_server_fifo" pkg="redwall_arm_control" type="redwall_arm_server_fifo" respawn="false" output="screen">
+	</node>
+
+</launch>
